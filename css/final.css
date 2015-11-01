@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 100px;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    height: 99px;
+    margin-left: 15%;
+    overflow: hidden;
+    width: 30%;
+}
+.logo img {
+    margin-top: 3%;
+}
+.logo h1 {
+    color: #727272;
+    font-size: 20px;
+    margin-left: 14%;
+    margin-top: -11%;
+}
+.icon {
+    height: 34px;
+    margin-top: 1%;
+    overflow: hidden;
+}
+.icon ul {
+    margin-left: 49%;
+}
+.icon ul li {
+    float: left;
+    list-style-type: none;
+    padding: 0.4%;
+}
+.icon ul li fa-twitter {
+    position: relative;
+}
+.icon ul li ul li {
+    margin-top: -1.7%;
+    position: absolute;
+    margin-left: -1%;
+}
+.icon ul li a {
+    color: #737373;
+    display: block;
+    font-size: 9px;
+    padding: 7px;
+    text-decoration: none;
+}
+.twitter {
+    border: 3px solid #00bdf1;
+    border-radius: 16px;
+    color: #00bdf1;
+}
+.facebook {
+    border: 3px solid #d9d9d9;
+    border-radius: 24px;
+    color: #d9d9d9;
+}
+.rss {
+    border: 3px solid #d9d9d9;
+    border-radius: 24px;
+    color: #d9d9d9;
+}
+.pinterest {
+    border: 3px solid #d9d9d9;
+    border-radius: 24px;
+    color: #d9d9d9;
+}
+.google_plus {
+    border: 3px solid #d9d9d9;
+    border-radius: 24px;
+    color: #d9d9d9;
+}
+.dribble {
+    border: 3px solid #d9d9d9;
+    border-radius: 24px;
+    color: #d9d9d9;
+}
+.border {
+    border: 1px solid #dadada;
+    margin-left: 15%;
+    width: 72%;
+}
+nav {
+    height: 34px;
+    margin-top: 1%;
+    overflow: hidden;
+}
+nav ul {
+    margin-left: 14%;
+}
+nav ul li {
+    float: left;
+    list-style-type: none;
+}
+nav ul li a {
+    color: #737373;
+    display: block;
+    font-size: 10px;
+    padding: 9px;
+    text-decoration: none;
+}
+section {
+    min-height: 556px;
+}
+.slider {
+    background-image: url("../images/slider_bg_with_effect.png");
+    height: 449px;
+    padding-top: 2%;
+}
+.slider_image img {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.slider_content {
+    height: 131px;
+    padding-bottom: 2%;
+}
+.slider_content pre {
+    color: #acacac;
+    margin-left: 28%;
+}
+.box {
+    background-color: #2dcc70;
+    border: medium none;
+    height: 34px;
+    margin-left: 47%;
+    margin-top: 2%;
+    width: 11%;
+}
+.box a {
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+}
+aside {
+    background-color: #efefef;
+    margin-top: 3%;
+    min-height: 100px;
+    overflow: hidden;
+}
+.aside_left {
+    background-image: url("../images/player.png");
+    float: left;
+    height: 206px;
+    margin-left: 20%;
+    margin-top: 2.5%;
+    position: relative;
+    width: 22%;
+}
+.aside_image {
+    margin-left: 38%;
+    margin-top: 25%;
+    position: absolute;
+}
+.aside_image img {
+}
+.aside_right {
+    
+    float: right;
+    height: 243px;
+    margin-right: 26%;
+    margin-top: 2%;
+    width: 30%;
+}
+.aside_right h2 {
+    color: #757575;
+    font-size: 20px;
+}
+.aside_right p {
+    color: #888888;
+    font-size: 14px;
+    margin-top: 1%;
+}
+footer {
+    background-color: #332f30;
+    min-height: 133px;
+}
+footer h2 {
+    
+    color: #bfbfbf;
+    float: left;
+    height: 30px;
+    margin-left: 20%;
+    margin-top: 4%;
+    width: 31%;
+}
+.find_out {
+    background-color: #2dce71;
+    border: medium none;
+    float: right;
+    height: 34px;
+    margin-right: 26%;
+    margin-top: 4%;
+    width: 14%;
+}
+.find_out a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer_bottom {
+    background-color: #efefef;
+    height: 60px;
+	 border-top: 1px solid #312F30;
+}
+.footer_bottom p {
+  
+    color: #a3a3a3;
+    height: 20px;
+    margin-left: 20%;
+    padding-top: 2%;
+    width: 30%;
+    font-size: 10px;
+}
+.footer_bottom ul {
+    
+    height: 30px;
+    margin-left: 56%;
+    margin-top: -1.9%;
+    width: 40%;
+}
+.footer_bottom ul li {
+    float: left;
+    list-style-type: none;
+}
+.footer_bottom ul li a {
+    color: #a3a3a3;
+    font-size: 10px;
+    padding: 4px;
+    text-decoration: none;
+}
